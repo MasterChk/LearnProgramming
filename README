@@ -1,0 +1,199 @@
+🕐 Duración mínima estimada
+12 semanas (3 meses) con enfoque intensivo y altamente práctico.
+
+Se requiere compromiso diario, entorno de práctica constante, simulación de proyectos reales y acompañamiento o retroalimentación continua.
+
+🧭 Objetivos al finalizar el curso
+Ser capaz de desarrollar y mantener microservicios con Java 21 y Spring Boot.
+
+Trabajar con ambientes DEV y PROD usando Docker + Kubernetes (minikube o k3d).
+
+Aplicar GitHub con branching strategy profesional (GitFlow simplificado).
+
+Crear y consumir APIs REST, testearlas con Postman.
+
+Aplicar unit testing y code coverage (JUnit, Mockito, JaCoCo).
+
+Deployar aplicaciones simuladas en producción (Kubernetes).
+
+Hacer Pull Requests, revisiones de código, releases y manejar issues.
+
+Trabajar con IntelliJ IDEA, Docker, Postman, GitHub Actions, etc.
+
+📅 Plan General Semana a Semana (12 semanas)
+🔹 Semana 1: Fundamentos de programación y herramientas
+Conceptos básicos: variables, estructuras de control, funciones.
+
+Introducción a Java 21.
+
+Instalación de IntelliJ IDEA.
+
+Git & GitHub básico: clonación, commits, pushes, branches.
+
+Configuración de ambiente local DEV.
+
+Proyecto: Mini calculadora de consola en Java.
+
+🔹 Semana 2: Programación orientada a objetos (OOP)
+Clases, objetos, herencia, interfaces, encapsulación.
+
+Prácticas orientadas a problemas reales.
+
+GitHub Flow: ramas feature/*, pull requests.
+
+Uso básico de Postman (para conocer APIs aunque aún no las creen).
+
+Proyecto: Sistema básico de gestión de tareas.
+
+🔹 Semana 3: Introducción a Spring Boot y REST APIs
+Spring Boot: configuración básica.
+
+Creación de primeras APIs REST (GET, POST, PUT, DELETE).
+
+Manejo de JSON y estructuras HTTP.
+
+Validaciones básicas (DTOs y anotaciones).
+
+Testing: Introducción a JUnit.
+
+Proyecto: API de tareas (ToDo app backend).
+
+🔹 Semana 4: Persistencia de datos con Spring Data JPA
+Bases de datos relacionales (PostgreSQL o H2 en dev).
+
+Repositorios JPA.
+
+Relaciones entre entidades.
+
+CRUD completo con base de datos.
+
+Testing con base de datos embebida.
+
+GitHub: estrategia feature, dev, main.
+
+Proyecto: API de usuarios + tareas.
+
+🔹 Semana 5: Arquitectura de microservicios
+¿Qué es un microservicio?
+
+Separación de contextos (User Service, Task Service, etc.)
+
+Comunicación entre microservicios (REST inicial).
+
+Dockerización de microservicios.
+
+Proyecto: Sistema de gestión dividido en servicios (users, auth, tasks).
+
+🔹 Semana 6: Entornos DEV y PROD
+Introducción a Docker.
+
+Docker Compose para múltiples servicios.
+
+Introducción a Kubernetes (minikube o k3d).
+
+Creación de ambientes DEV y PROD locales.
+
+Variables de entorno, configuración por perfil.
+
+Proyecto: despliegue completo en minikube con dev y prod.
+
+🔹 Semana 7: Testing avanzado y buenas prácticas
+Mockito para mocking de dependencias.
+
+Cobertura de código con JaCoCo.
+
+Test de integración.
+
+Validación de código con SonarLint.
+
+Mejores prácticas de desarrollo en equipo.
+
+Proyecto: Pipeline de test + cobertura.
+
+🔹 Semana 8: Seguridad y autenticación
+Spring Security básico.
+
+JWT para autenticación.
+
+Servicio Auth + roles + autenticación vía token.
+
+Seguridad en API Gateway.
+
+Pruebas de autenticación con Postman.
+
+Proyecto: sistema con login protegido y tokens.
+
+🔹 Semana 9: CI/CD con GitHub Actions
+Introducción a CI/CD.
+
+Workflows básicos con GitHub Actions.
+
+Test + Build + Docker build + push a DockerHub.
+
+Diferencias entre deployment en dev y prod.
+
+Proyecto: pipeline completa hasta DockerHub.
+
+🔹 Semana 10: Releases y branching strategy
+GitFlow simplificado (main, dev, feature/*, release/*, hotfix/*).
+
+Pull requests bien hechos.
+
+Código limpio, revisiones de código.
+
+Tags y releases en GitHub.
+
+Proyecto: liberación de una versión 1.0.
+
+🔹 Semana 11: Proyecto final (semana 1)
+Propuesta de proyecto realista (ej. sistema de reservas, ecommerce mínimo).
+
+Definición de microservicios, base de datos, autenticación.
+
+Branching real.
+
+Desarrollo en equipo simulado (si hay más de un participante).
+
+Kanban board en GitHub Projects.
+
+🔹 Semana 12: Proyecto final (semana 2)
+Testing completo.
+
+Revisión de PRs.
+
+Release con tag y documentación.
+
+Deploy completo en Kubernetes (PROD simulado).
+
+Demo final y evaluación.
+
+🛠 Herramientas utilizadas
+Java 21 + Spring Boot 3.x
+
+IntelliJ IDEA
+
+Git + GitHub + GitHub Projects + GitHub Actions
+
+Docker + Docker Compose
+
+Kubernetes (Minikube o k3d)
+
+Postman
+
+JUnit, Mockito, JaCoCo
+
+PostgreSQL (H2 para dev)
+
+Swagger/OpenAPI
+
+SonarLint (análisis de calidad de código)
+
+🔄 Modalidad recomendada
+Diaria: 6-8 horas con bloques teóricos y prácticos.
+
+Revisión semanal de código (code review).
+
+Mini evaluaciones técnicas (para reforzar lo aprendido).
+
+1 mentor o tutor semanal (opcional pero recomendado para feedback real).
+
